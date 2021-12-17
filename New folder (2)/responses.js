@@ -115,7 +115,7 @@ if (x == "What exercises to avoid?") {
     return "do not lie flat on your back for long periods, particularly after 16 weeks, because the weight of your bump presses on the main blood vessel bringing blood back to your heart and this can make you feel faint do not take part in contact sports where there's a risk of being hit, such as kickboxing, judo or squash do not go scuba diving, because the baby has no protection against decompression sickness and gas embolism (gas bubbles in the bloodstream)do not exercise at heights over 2,500m above sea level – this is because you and your baby are at risk of altitude sickness";
 }
     // keyward pain
-    if (common == "period") {
+    if (common == "pain") {
         return " •Why are my period cramps so painful? •When should I worry about pain during pregnancy? •What all pains are normal during pregnancy? •Does pain during pregnancy affect the baby?";
     }
 
