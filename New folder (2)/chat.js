@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Namaste!\n Please ask questions having the key words | pregnancy | pregnant | weight | food | period | pain | exercises"
+    let firstMessage = "Namaste!\n Please ask questions having the key words | pregnancy | pregnant | weight | food | period | pain | exercise"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

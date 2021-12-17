@@ -2,7 +2,7 @@ function getBotResponse(input) {
 
     x=input.toLowerCase()
     first=x.split(" ")
-    var keywards = ['hi','hello','namaste','pregnancy','pregnant','weight','food','period','pain','exercises','fit'];
+    var keywards = ['hi','hello','namaste','pregnancy','pregnant','weight','food','period','pain','exercise','fit'];
 
     var common = first.filter(x => keywards.indexOf(x) !== -1)
   
@@ -86,7 +86,7 @@ if (x == "tips for healthy breakfast?") {
 }
   // keyward period
 if (common == "period") {
-    return "•Why is my period late? •How long is the average period length? •Can I get pregnant during periods? •Why are my period cramps so painful?";
+    return "•Why is my period late? •How long is the average period length? •Can i get preg during periods? •Why are my cramps so painful?";
 }
 if(x=='why is my period late?'){
     return"There are several reasons why your period might be late: You might be pregnant. If you think this could be the case, you can take a home pregnancy test or see your doctor to check. However, several other factors can cause late or even missed periods, for example medication, stress, diet, or exercise."
@@ -94,7 +94,7 @@ if(x=='why is my period late?'){
 if (x == "how long is the average period length?") {
     return "The time from the first sign of blood to the last is usually in the 3-to-5-day range. It’s common for cycles to be a little irregular for a few years after your first period. This means your periods may not always come at the same time every cycle, and they may be a bit different from one month to the next. Don’t worry, as you progress through adolescence, your cycles will become more regular and start to reflect adult cycle ranges, but they may still be a bit variable.";
 }
-if (x == "can i get pregnant during periods?") {
+if (x == "can i get preg during periods?") {
     return "Yes - during monthly bleeding the chances of pregnancy are low but not zero. Bleeding itself does not prevent pregnancy, and it does not promote pregnancy, either. In the first several days of monthly bleeding, the chances of pregnancy are lowest. As the days pass, the chances of pregnancy increase, whether or not she is still bleeding. The risk of pregnancy rises until ovulation. The day after ovulation the chances of pregnancy begin to drop steadily. Some fertility awareness methods that depend on cervical secretions advise avoiding unprotected sex during monthly bleeding because cervical secretions cannot be detected during bleeding and there is a small risk of ovulation at this time.";
 }
 if (x == "why are my period cramps so painful?") {
@@ -103,29 +103,29 @@ if (x == "why are my period cramps so painful?") {
 
 // keyward exercises
 if (common == "exercise") {
-    return "•Exercise during pregnancy? •What exercises to avoid? ";
+    return "•Exercise during preg-cy? •What exercises to avoid? ";
 }
 if (common == "fit") {
-    return "•Exercise during pregnancy? •What exercises to avoid? ";
+    return "•Exercise during preg-cy? •What exercises to avoid? ";
 }
-if(x=='exercise during pregnancy?'){
+if(x=='exercise during preg-cy?'){
     return"Stomach-strengthening exercises | Pelvic tilt exercises | Pelvic floor exercises"
 }
-if (x == "What exercises to avoid?") {
+if (x == "what exercises to avoid?") {
     return "do not lie flat on your back for long periods, particularly after 16 weeks, because the weight of your bump presses on the main blood vessel bringing blood back to your heart and this can make you feel faint do not take part in contact sports where there's a risk of being hit, such as kickboxing, judo or squash do not go scuba diving, because the baby has no protection against decompression sickness and gas embolism (gas bubbles in the bloodstream)do not exercise at heights over 2,500m above sea level – this is because you and your baby are at risk of altitude sickness";
 }
     // keyward pain
     if (common == "pain") {
-        return " •Why are my period cramps so painful? •When should I worry about pain during pregnancy? •What all pains are normal during pregnancy? •Does pain during pregnancy affect the baby?";
+        return " •why are my cramps so painful? •When should I worry about pain during pregnancy? •What all pains are normal during preg-cy? •Does pain during preg-cy affect the baby?";
     }
 
-    if (x == "why are my period cramps so painful?") {
+    if (x == "why are my cramps so painful?") {
         return "Painful period cramps could be caused by heavy menstrual bleeding, which often affects you to take part in everyday life around your period. Or they could be caused by endometriosis. In this painful condition, the cells or tissue lining the uterus, grow outside the uterus. You should see your doctor who can do a blood test and get your history to help you get better. Some hormonal contraceptives are registered for women or girls with heavy menstrual bleeding who also need contraception";
     }
-    if (x == "when should I worry about pain during pregnancy?") {
+    if (x == "when should I worry about pain during preg-cy?") {
         return "Image result for pain during pregnancy faq Even though mild cramps are a normal part of pregnancy, you should still talk to your doctor about your discomfort. If you begin to see spotting or bleeding along with your cramps, it could be a sign of miscarriage or an ectopic pregnancy.";
     }
-    if (x == "what all pains are normal during pregnancy?") {
+    if (x == "what all pains are normal during preg-cy?") {
         return "Image result for pain during pregnancy faq Even though mild cramps are a normal part of pregnancy, you should still talk to your doctor about your discomfort. If you begin to see spotting or bleeding along with your cramps, it could be a sign of miscarriage or an ectopic pregnancy.";
     }
     if (x == "does pain during pregnancy affect the baby?") {
