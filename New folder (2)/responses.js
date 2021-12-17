@@ -2,10 +2,10 @@ function getBotResponse(input) {
 
     x=input.toLowerCase()
     first=x.split(" ")
-    var keywards = ['pregnancy','pregnant','weight','food','period','pain','exercises','fit'];
+    var keywards = ['hi','hello','namaste','pregnancy','pregnant','weight','food','period','pain','exercises','fit'];
 
     var common = first.filter(x => keywards.indexOf(x) !== -1)
-
+  
     // keyward pregnancy
     if (common == "pregnancy") {
         return "•How to avoid pregnancy? •What is pregnancy? •What to eat during pregnancy? •How to do pregnancy test? •Spotting during early pregnancy? •When do pregnancy craving start? •Is sex safe during pregnancy? •What are the signs of unhealthy pregnancy? •Optimum weight gain during pregnancy?";
@@ -103,10 +103,10 @@ if (x == "why are my period cramps so painful?") {
 
 // keyward exercises
 if (common == "exercise") {
-    return "•Exercise during pregnancy? •What exercises to avoid? •Can I get pregnant during periods? ";
+    return "•Exercise during pregnancy? •What exercises to avoid? ";
 }
 if (common == "fit") {
-    return "•Exercise during pregnancy? •What exercises to avoid? •Can I get pregnant during periods? ";
+    return "•Exercise during pregnancy? •What exercises to avoid? ";
 }
 if(x=='exercise during pregnancy?'){
     return"Stomach-strengthening exercises | Pelvic tilt exercises | Pelvic floor exercises"
